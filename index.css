@@ -1,0 +1,65 @@
+/* ::::: http://phocke.pl/css/screen.css ::::: */
+
+/* ::::: http://phocke.pl/css/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, acronym, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, thead, tr, th, td { margin: 0pt; padding: 0pt; font-size: 100%; vertical-align: baseline; border: 0pt none; outline: 0pt none; background: none repeat scroll 0% 0% transparent; }
+ol, ul { list-style: none outside none; }
+:focus { outline: 0pt none; }
+a img, :link img, :visited img { border: 0pt none; }
+/* ::::: http://phocke.pl/css/master.css ::::: */
+
+html { background: url('bg-html.png') repeat scroll 0% 0% transparent; }
+body { color: rgb(57, 57, 57); text-shadow: 1px 1px 1px rgb(255, 255, 255); background: url('bg-body.png') repeat-x scroll 50% 0pt transparent; }
+a:link, a:visited { color: rgb(0, 148, 230); text-decoration: none; outline: medium none; }
+a:hover { color: rgb(0, 148, 230); text-decoration: underline; }
+#container { width: 900px; margin: 0pt auto; background: url('roger.png') no-repeat scroll 500px 50px transparent; }
+div.header h1 { width: 500px; font-size: 50px; font-weight: bold; color: rgb(24, 24, 24); padding: 40px 0pt 30px 25px; background: url('separator.png') no-repeat scroll 0pt 100% transparent; float: left; letter-spacing: -3px; }
+div.header h1 span { display: block; font-size: 26px; color: rgb(33, 133, 190); margin: 25px 0pt 0pt; letter-spacing: normal; }
+div.tagline { background: url('separator.png') no-repeat scroll 0pt 100% transparent; margin: 20px 0pt; width: 500px; }
+div.tagline p { font-size: 18px; font-style: italic; line-height: 28px; padding: 35px 0pt 60px 150px; background: url('icon-bulb.png') no-repeat scroll 0% 0% transparent; }
+div.section { padding: 30px 15px; background: url('divider.png') repeat-x scroll 0pt 100% transparent; }
+div.section h2 { color: rgb(33, 133, 190); font-size: 36px; font-style: italic; letter-spacing: -1px; height: 67px; padding: 0pt 0pt 0pt 90px; margin: 0pt 0pt 25px; }
+div.section h3 { color: rgb(33, 133, 190); font-size: 24px; font-style: italic; margin: 0pt 0pt 20px; }
+div.section h2.employment { background: url('icon-employment.png') no-repeat scroll 0% 0% transparent; padding-top: 6px; }
+div.section h2.experience { background: url('icon-experience.png') no-repeat scroll 0% 0% transparent; padding-top: 20px; }
+div.section h2.education { background: url('icon-education.png') no-repeat scroll 0% 0% transparent; padding-top: 13px; }
+div.section ul { margin-bottom: 20px; }
+div.section ul li { font-size: 16px; line-height: 26px; background: url('bullet.png') no-repeat scroll 0pt 50% transparent; padding: 0pt 0pt 0pt 20px; }
+div.section ul.past li { float: left; width: 47%; }
+div.section ol { width: 695px; margin: 0pt auto; }
+div.section ol li { background: url('divider.png') repeat-x scroll 0% 0% transparent; padding: 25px 5px; }
+div.section ol li:last-child { padding-bottom: 0pt; }
+div.section ol li h4 { color: rgb(33, 133, 190); font-size: 20px; font-style: italic; }
+div.section ol li a h4:hover { position: relative; top: 2px; text-decoration: underline; }
+div.section ol li h5 { color: rgb(33, 133, 190); font-size: 14px; font-style: italic; font-weight: normal; }
+div.section ol li p { font-size: 16px; font-style: normal; color: rgb(119, 119, 119); }
+div.section ol li p.tech { color: rgb(33, 133, 190); }
+div.section ol li p.why { font-size: 18px; color: rgb(119, 119, 119); }
+div.interests { width: 450px; float: left; margin: 0pt 15px 0pt 0pt; background: url('vertical-line.png') no-repeat scroll 100% 50% transparent; }
+div.section div.contact { width: 400px; float: left; }
+div.section div.interests h3 { font-size: 24px; color: rgb(31, 31, 31); background: url('icon-interests.png') no-repeat scroll 0% 0% transparent; height: 35px; padding: 3px 0pt 0pt 50px; }
+div.section div.contact h3 { font-size: 24px; color: rgb(33, 133, 190); background: url('icon-contact.png') no-repeat scroll 0% 0% transparent; height: 35px; padding: 8px 0pt 0pt 50px; }
+div.section div.interests p { font-style: normal; margin: 0pt 0pt 25px; }
+div.section div.contact ul li { background: none repeat scroll 0% 0% transparent; clear: both; margin: 10px 20px 0pt -13px; }
+div.section div.contact ul li a.link { padding-left: 5px; position: relative; top: -10px; left: 6px; font-size: 18px; }
+div.section div.contact p { font-size: 18px; margin: 0pt 0pt 15px; padding: 0pt 0pt 0pt 50px; line-height: 38px; }
+div.section div.contact p.url { background: url('icon-url.png') no-repeat scroll 0% 0% transparent; }
+div.section div.contact p.email { background: url('icon-email.png') no-repeat scroll 0% 0% transparent; }
+div.section div.contact p.tel { background: url('icon-phone.png') no-repeat scroll 0% 0% transparent; }
+div.footer { margin: 20px; font-style: italic; color: rgb(55, 55, 55); }
+div.footer p { float: left; }
+div.footer p.design { float: right; }
+.group:after { content: "."; display: block; height: 0pt; clear: both; visibility: hidden; }
+/* ::::: http://phocke.pl/css/ie.css ::::: */
+
+:first-child + html .group { min-height: 1%; }
+@media screen, projection {
+  .cufon-canvas { display: inline-block ! important; position: relative ! important; vertical-align: middle ! important; font-size: 1px ! important; line-height: 1px ! important; }
+  .cufon-canvas .cufon-alt { display: inline-block ! important; width: 0pt ! important; height: 0pt ! important; overflow: hidden ! important; text-indent: -10000in ! important; }
+  .cufon-canvas canvas { position: relative ! important; }
+}
+@media print {
+  .cufon-canvas { padding: 0pt ! important; }
+  .cufon-canvas canvas { display: none ! important; }
+  .cufon-canvas .cufon-alt { display: inline ! important; }
+}
